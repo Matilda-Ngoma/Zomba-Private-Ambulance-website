@@ -1,0 +1,46 @@
+body
+{
+	padding: 50px;
+    background-size: 100%;
+    font-family: sans-serif;
+}
+ 
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+	padding: 50px;
+    justify-content: center;
+
+}
+
+.form-group{
+    margin-bottom: 30px;
+
+}
+.form-control{
+    padding: 50px;
+
+}
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 2%;
+    width: 100%;
+    border-radius: 5px;
+    margin: 2% auto;
+}
+
+.success {
+    background: #D4EDDA;
+    color: #40754C;
+    padding: 2%;
+    width: 100%;
+    border-radius: 5px;
+    margin: 2% auto;
+}
+
+.container p{
+    color: var(--light-color);
+    font-size: 20px;
+    padding-top: 1px;
+}

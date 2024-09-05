@@ -1,0 +1,45 @@
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+	padding: 50px;
+    justify-content: center;
+
+}
+
+.post-editor form{
+    max-width: 80rem;
+    margin:0 auto;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    border-radius: .5px;
+    padding: 2px;
+    padding-top: 1px;
+
+}
+
+.post-editor form p{
+    color: var(--light-color);
+    font-size: 20px;
+    padding-top: 1px;
+}
+
+.post-editor form p span{
+    color: var(--red);
+}
+
+.post-editor form .box{
+    width: 50%;
+    border-radius: 10px;
+    background-color: var(--light-bg);
+    padding: 2rem;
+    font-size: 20px;
+    color: var(--black);
+    margin: 1px;
+}
+
+.post-editor form textarea{
+    resize: none;
+    height: 20rem;
+}
